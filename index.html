@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Слайдер | Проект 3</title>
+  <script defer src="index.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <div style="background: linear-gradient(56deg, rgba(28,60,11,1) 4%, rgba(82,78,19,1) 52%, rgba(37,103,5,1) 81%);">
+      <h1>A life is a moment</h1>
+      <p>Beauty and wisdom are seldom found together</p>
+    </div>
+    <div style="background: linear-gradient(56deg, rgba(56,11,60,1) 4%, rgba(32,15,61,1) 52%, rgba(11,19,37,0.7906512946975666) 74%);">
+      <h1>Enjoy every moment</h1>
+      <p>Do not give up, the beginning is always the hardest</p>
+    </div>
+    <div style="background: linear-gradient(56deg, rgba(33,84,176,1) 4%, rgba(107,158,182,1) 52%, rgba(26,69,176,1) 74%);">
+      <h1>Follow your heart</h1>
+      <p>May the force be with you</p>
+    </div>
+    <div style="background: radial-gradient(circle, rgba(16,116,91,1) 4%, rgba(25,113,100,1) 52%, rgba(11,110,20,1) 74%);">
+      <h1>Never look back</h1>
+      <p>Better a new friend than an old foe.</p>
+    </div>
+
+
+  </div>
+  <div class="main-slide">
+
+    <div
+            style="
+            background-image: url('https://images.unsplash.com/photo-1653465597689-d9b231111c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+          "
+    ><div class="body-four">
+    <div class="screen-four">
+      <h1>Aim Training</h1>
+      <a href="#" class="start-four">Начать игру</a>
+
+    </div>
+    <div class="screen-four ">
+      <h1>Выберите время</h1>
+      <ul class="time-list-four">
+        <li>
+          <button class="time-btn-four">10 сек
+          </button>
+        </li>
+        <li>
+          <button class="time-btn-four">20 сек
+          </button>
+        </li>
+        <li>
+          <button class="time-btn-four">30 сек
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen-four">
+      <h3>Осталось <span id="timeFour">00:00</span></h3>
+      <div class="board-four" id="boardFour"></div>
+    </div>
+    </div></div>
+    <div
+            style="
+            background-image: url('https://images.unsplash.com/photo-1649370447195-c4390bf4f2d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+          "
+    ><div class="body-three">
+      <body>
+      <div class="container-three" id="boardThree"></div>
+      </body>
+    </div></div>
+    <div
+            style="
+            background-image: url('https://images.unsplash.com/photo-1644768303633-cc186685e583?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=508&q=80');
+          "
+    >  <div class="body-two">
+      <div>
+        <div class="row-two">
+          <div class="col-header-two start-two">Начать</div>
+          <div class="col-header-two progress-two">В процессе</div>
+          <div class="col-header-two done-two">Готовы</div>
+        </div>
+
+        <div class="row-two">
+          <div class="placeholder-two">
+            <div class="item-two" draggable="true">Перетащи меня</div>
+          </div>
+          <div class="placeholder-two"></div>
+          <div class="placeholder-two"></div>
+        </div>
+
+      </div></div></div>
+    <div
+            style="
+            background-image: url('https://images.unsplash.com/photo-1633209420718-6c15bca7b24f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+          "
+    >
+      <div class="container-one">
+        <div
+                class="slide-one "
+                style="background-image: url('./img/one.jpg');"
+        >
+          <h3>Shine </h3>
+        </div>
+        <div
+                class="slide-one"
+                style="
+          background-image: url('./img/two.jpg');
+        "
+        >
+          <h3>Jupiter</h3>
+        </div>
+        <div
+                class="slide-one"
+                style="
+          background-image: url('./img/three.jpg');
+        "
+        >
+          <h3>Sands</h3>
+        </div>
+        <div
+                class="slide-one"
+                style="
+          background-image: url('./img/four.jpg');
+        "
+        >
+          <h3>Error</h3>
+        </div>
+        <div
+                class="slide-one"
+                style="
+          background-image: url('./img/five.jpg');
+        "
+        >
+          <h3>Bubbles</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="down-button">
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <button class="up-button">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</div>
+</body>
+</html>
